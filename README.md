@@ -1,6 +1,6 @@
 # rpi_gps
 
-A utility built for Raspberry Pis to interface with the [Adfruit Ultimate GPS breakout board](https://learn.adafruit.com/adafruit-ultimate-gps)
+A utility built for Raspberry Pis to interface with the [Adafruit Ultimate GPS breakout board](https://learn.adafruit.com/adafruit-ultimate-gps)
 
 The `main.py` script takes several arguments, most importantly `--output`
 
