@@ -1,0 +1,26 @@
+# GPS quality indicator
+# 0 - fix not available,
+# 1 - GPS fix,
+# 2 - Differential GPS fix (values above 2 are 2.3 features)
+# 3 - PPS fix
+# 4 - Real Time Kinematic
+# 5 - Float RTK
+# 6 - estimated (dead reckoning)
+# 7 - Manual input mode
+# 8 - Simulation mode
+
+
+# ========================================
+# $GPRMC,HHMMSS.000,A,XXXX.XXXX,N,0YYYY.YYYY,W,1.95,120.35,DDMMYY,,,D*7E
+# timestamp = YYYY-MM-DD HH:MM:SS
+# latitude: XX.XXXXX degrees
+# longitude: -YY.YYYYYY degrees
+# fix quality: 2
+# fix quality 3d: 0
+# # satellites: 4
+# altitude: 198.5 meters
+# speed: 1.95 knots
+# track angle: 120.35 degrees
+# horizontal dilution: 9.14
+# height geoid: -35.0 meters
+# ========================================
