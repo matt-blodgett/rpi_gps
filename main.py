@@ -195,7 +195,7 @@ class GPSDataProcessor:
             self._logger.info('process: event="%s"', event)
 
         sql = """
-        INSERT INTO activity (session_id, timestamp, event)
+        INSERT INTO events (session_id, timestamp, event)
         VALUES (?, ?, ?);
         """
         parameters = [

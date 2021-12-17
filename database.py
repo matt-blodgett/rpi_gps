@@ -17,7 +17,7 @@ def is_valid(path=PATH_DATABASE):
     try:
         connection = sqlite3.connect(path)
         cursor = connection.cursor()
-        cursor.execute('SELECT COUNT(*) FROM session;')
+        cursor.execute('SELECT COUNT(*) FROM sessions;')
     except sqlite3.DatabaseError:
         return False
     return True
